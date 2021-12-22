@@ -1,0 +1,10 @@
+1. input cv
+2. input berapa orang yang dipilih
+3. input posisi
+4. baca isi cv
+5. fungsi model (input nya step 3)
+6. output dict skor setiap orang berdasarkan skor tertinggi
+7. output list nama orang dan skill yang dimiliki
+
+hasil fungsi nomer 5 :
+{'fiqri': ['posisi',nilai, list skill]}
