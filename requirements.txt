@@ -7,3 +7,4 @@ pdfplumber
 PyPDF2
 streamlit
 SpeechRecognition
+spacy==2.3.5
