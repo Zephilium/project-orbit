@@ -9,8 +9,8 @@ import en_core_web_sm
 import streamlit as st
 import os
 
-os.system('python -m spacy download en')
-os.system('pip install speech_recognition')
+# os.system('python -m spacy download en')
+# os.system('pip install speech_recognition')
 
 
 def extract_data(feed):
