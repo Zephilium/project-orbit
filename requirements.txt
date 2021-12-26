@@ -1,5 +1,5 @@
 streamlit
-SoundFile
+soundfile
 librosa
 pydub
 pyresparser
