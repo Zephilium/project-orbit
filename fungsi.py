@@ -1,19 +1,15 @@
-import streamlit as st
-
-import en_core_web_sm
-
-import PyPDF2
-
-import pdfplumber
-
-from pyresparser import ResumeParser
-
-from pydub import AudioSegment
-
-import librosa
-
-import soundfile as sf
 import speech_recognition as sr
+import soundfile as sf
+import librosa
+from pydub import AudioSegment
+from pyresparser import ResumeParser
+import pdfplumber
+import PyPDF2
+import en_core_web_sm
+import streamlit as st
+import os
+
+os.system('python -m spacy download en')
 
 
 def extract_data(feed):
