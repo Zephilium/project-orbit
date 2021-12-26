@@ -1,5 +1,5 @@
 streamlit
-soundfile
+SoundFile==0.10.3.post1
 librosa
 pydub
 pyresparser
