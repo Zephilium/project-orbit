@@ -8,9 +8,6 @@ import PyPDF2
 import en_core_web_sm
 import streamlit as st
 import os
-import nltk
-
-nltk.download('stopwords')
 
 # os.system('python -m spacy download en')
 # os.system('pip install speech_recognition')

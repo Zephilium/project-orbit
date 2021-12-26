@@ -2,6 +2,10 @@ import fungsi
 
 import streamlit as st
 
+import nltk
+
+nltk.download('stopwords')
+
 '=========================================================================='
 # Create a page dropdown
 st.header('Aplikasi Seleksi CV')
