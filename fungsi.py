@@ -46,10 +46,6 @@ def ekstrak():
 
 def seleksi(f1, pil_posisi, p_posisi):
 
-    # posisi = 'Data analytics'
-
-    # uploaded_file = st.file_uploader('Choose your .pdf file', type="pdf")
-
     if f1 is not None:
 
         data = ResumeParser('CV/'+str(f1)).get_extracted_data()
@@ -213,39 +209,17 @@ def seleksi(f1, pil_posisi, p_posisi):
 
                 scores.append(mobile)
 
-        # p_posisi = ['Quality/Six Sigma', 'Operations management',
-
-        #             'Supply chain', 'Project management', 'Data analytics', 'Healthcare']
-
-        # pil_posisi = st.selectbox('Pilih Posisi', p_posisi)
-
-        # for i in p_posisi:
-
-        #     if i == pil_posisi:
-
-        #         st.write(f'Anda memilih {i}')
-
-        # st.write(
-
-        #     f'Kemampuan yang dimiliki oleh {data["name"]} tentang {pil_posisi} adalah ')
-
-        # st.write(data['name'])
-
         ind = 0
 
         job = {}
 
         for x in terms.keys():
 
-            # st.write(f'{x}: {scores[ind]}')
-
             job[x] = scores[ind]
 
             ind += 1
 
         a = {}
-
-        # a[data['name']] = [pil_posisi, job[pil_posisi], kemampuan[pil_posisi]]
 
         job = {'nama': f1, 'posisi': pil_posisi,
                'skor': job[pil_posisi], 'skil': kemampuan[pil_posisi]}
@@ -261,7 +235,6 @@ def seleksi(f1, pil_posisi, p_posisi):
 
 def stt():
 
-    # song = AudioSegment.from_mp3('audio/aziz2.mp3')
     upload_mp3 = st.file_uploader('Choose your .mp3 file', type="mp3")
 
     if upload_mp3 is not None:

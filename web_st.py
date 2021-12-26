@@ -60,46 +60,6 @@ if page == "Seleksi CV":
 
 
 elif page == "Speech To Text":
-
-    # Display details of page 2
-
-    # st.write('Page 2')
-
-    # form = st.form(key='my_form')
-
-    # name = form.text_input(label='Enter some text')
-
-    # submit_button = form.form_submit_button(label='Submit')
-
-    # if submit_button:
-
-    #     st.write(f'hello {name}')
-
-    # nlp = en_core_web_sm.load()
-
-    # cv = st.sidebar.button('Seleksi CV')
-
-    # if cv:
-
-    #     f1 = 'CV\CV.pdf'
-
-    #     data = ResumeParser(f1).get_extracted_data()
-
-    #     st.write(data)
-
-    # stt = st.sidebar.button('Speech to Text')
-
-    # if stt:
-
-    #     form = st.form(key='my_form')
-
-    #     name = form.text_input(label='Enter some text')
-
-    #     submit_button = form.form_submit_button(label='Submit')
-
-    #     if submit_button:
-
-    #         st.write(f'hello {name}')
     fungsi.stt()
 
 elif page == "Tes":
